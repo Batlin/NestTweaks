@@ -21,11 +21,6 @@ ASSISTANT_API_ENDPOINT = 'embeddedassistant.googleapis.com'
 DEFAULT_GRPC_DEADLINE = 60 * 3 + 5
 
 # Parsing response
-#It's currently 24.5 degrees, and eco mode is set to keep the temperature above 16.5 degrees.
-#It's currently 24.5 degrees, and the Termostato is off.
-#Heating is set to 25, with a current temperature of 24. 
-#It\'s currently 25 degrees.
-#The Termostato has a current humidity reading of 28%.
 DIV_CLASS = '//div[@class="show_text_content"]/text()'
 HEAT = 'heat'
 ECO = 'eco'
@@ -38,4 +33,3 @@ class NestMode(Enum):
 	ECO = 2
 	OFF = 3
 	UNKNOWN = 4
-
