@@ -11,8 +11,8 @@ OWM_CITY = 'Madrid, Spain'
 OWM_UNITS = 'celsius'
 
 # Google Assistant queries
-QUERY_INTEMP = 'Whats the temperature in home'
-QUERY_INHUMIDITY = 'Whats the humidity in home'
+QUERY_INTEMP = 'Whats the thermostat temperature'
+QUERY_INHUMIDITY = 'Whats the thermostat humidity'
 QUERY_MODE = 'Whats the thermostat mode'
 SET_MODE_HEAT = 'Set thermostat to heat mode'
 
